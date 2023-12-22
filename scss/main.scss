@@ -1,3 +1,45 @@
-body{
-  background-color: red;
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h-sec {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  .menubar {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 80%;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+  }
+  .menu ul li {
+    padding: 10px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .register {
+    display: flex;
+    justify-content: end;
+  }
+
+
+
 }
